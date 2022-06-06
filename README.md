@@ -22,17 +22,38 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+## Descrição
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Testando [Nest js](https://docs.nestjs.com/support) em aplicação CRUD.
 
-## Installation
 
-```bash
+##
+
+## O que foi aprendido
+
+- CLI do Nest
+- Como o Nest funciona
+- Arquivos principais
+- Como criar Models
+- Como criar Controllers
+- Como criar Services
+- Entendo os decorators @Injectable e @Controller
+- Criando rotas de api com decoratos (@Delete, @Get, @Post, @Put)
+- Como receber dados de payload e parâmetros (@Param, @Body)
+- Entendo funcionamento do roteamento http (Quem está por baixo dos panos)
+- Como implementar comunicação com Banco de dados
+
+##
+
+## Instalando pacotes
+
+```
 $ npm install
 ```
 
-## Running the app
+##
+
+## Rodando o app
 
 ```bash
 # development
@@ -45,7 +66,9 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+##
+
+## Testes
 
 ```bash
 # unit tests
@@ -58,15 +81,14 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
+##
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Stay in touch
+## Links Úteis
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- [Documentação do Nest](https://docs.nestjs.com/support).
+
+##
 
 ## License
 

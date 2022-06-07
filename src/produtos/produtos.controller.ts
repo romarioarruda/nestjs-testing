@@ -12,8 +12,8 @@ export class ProdutosController {
   }
 
   @Get(':id')
-  fetchOne(@Param() params: any): Produto {
-    return this.produtoService.fetchOne(params.id)
+  fetchOne(@Param('id') id: string): Produto {
+    return this.produtoService.fetchOne(id)
   }
 
   @Post()
@@ -22,12 +22,12 @@ export class ProdutosController {
   }
 
   @Put(':id')
-  update(@Param() params:any, @Body() produto: Produto) {
-    this.produtoService.update(params.id, produto)
+  update(@Param('id') id: string, @Body() produto: Produto) {
+    this.produtoService.update(id, produto)
   }
 
   @Delete(':id')
-  delete(@Param() params: any): void {
-    this.produtoService.delete(params.id)
+  delete(@Param('id') id: string): void {
+    this.produtoService.delete(id)
   }
 }
